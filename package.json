@@ -1,0 +1,26 @@
+{
+  "name": "draft",
+  "version": "1.0.0",
+  "description": "Telegram miniapp game project",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MalkovYar/Draft.git"
+  },
+  "keywords": [
+    "js",
+    "tg"
+  ],
+  "author": "Malkov Yaroslav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MalkovYar/Draft/issues"
+  },
+  "homepage": "https://github.com/MalkovYar/Draft#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.63.0"
+  }
+}

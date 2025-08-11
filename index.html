@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Виселица | Telegram Mini App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Виселица</h1>
+        
+        <div class="game-area">
+            <div class="hangman-drawing">
+                <pre id="hangman-art"></pre>
+                <div class="attempts">Осталось попыток: <span id="attempts">6</span></div>
+            </div>
+            
+            <div class="word-display" id="word-display"></div>
+            
+            <div class="used-letters">
+                Использованные буквы: <span id="used-letters"></span>
+            </div>
+            
+            <div class="controls">
+                <input type="text" id="letter-input" maxlength="1" placeholder="Введите букву">
+                <button id="guess-btn">Угадать</button>
+                <button id="restart-btn">Новая игра</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

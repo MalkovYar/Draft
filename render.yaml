@@ -3,6 +3,5 @@ services:
     name: dragon-draft
     runtime: node
     buildCommand: chmod +x ../.render-build.sh && ../.render-build.sh
-    startCommand: node server/server.js
+    startCommand: node src/main/server/server.js
     env: node
-    workingDirectory: /opt/render/project/src/main

@@ -8,6 +8,9 @@
     "start": "node server/server.js",
     "dev": "nodemon server/server.js"
   },
+  "engines": {
+    "node": "18.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MalkovYar/Draft.git"
